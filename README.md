@@ -8,6 +8,12 @@ Esta conformado por:
 -Foschiatti, gabriel agustin   31165
 -Pertile, Tiago Ezequiel       31337
 
+ESCENARIO: 
+
+    2. Sistema de reservas de cine
+    El sistema deberá administrar reservas de entradas para funciones de cine. Podrá contemplar selección de películas, horarios disponibles, cantidad de entradas, control de capacidad de salas, promociones y cálculo de importes.
+
+    La solución podrá incorporar estadísticas básicas relacionadas con películas más elegidas, horarios con mayor demanda o cantidad total de entradas vendidas.
 
 *En este repositorio se encuentra nuestro archivo en formato python para ejecutar el programa/algoritmo, tambien se encuentra un video demo probandolo. Es el siguiente: https://youtu.be/P2WSV-Bj9Qw
 
