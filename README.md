@@ -9,15 +9,15 @@ Esta conformado por:
 -Pertile, Tiago Ezequiel       31337
 
 
-En este repositorio se encuentra nuestro archivo en formato python para ejecutar el programa/algoritmo, tambien se encuentra un video demo probandolo. Es el siguiente: https://youtu.be/P2WSV-Bj9Qw
+*En este repositorio se encuentra nuestro archivo en formato python para ejecutar el programa/algoritmo, tambien se encuentra un video demo probandolo. Es el siguiente: https://youtu.be/P2WSV-Bj9Qw
 
-"peliculas = {
+     peliculas = {
     1: {"titulo": "Avengers: Endgame", "entradas": 100, "precio": 5000, "horario1": "10:30", "horario2": "18:30", "horario3": "20:00"},
     2: {"titulo": "El señor de los anillos", "entradas": 50, "precio": 4500, "horario1": "09:00", "horario2": "16:00", "horario3": "19:30"},
     3: {"titulo": "El planeta de los simios", "entradas": 5, "precio": 4000, "horario1": "13:30", "horario2": "17:00", "horario3": "21:30"}
-}
+    }
 
-def menu_reservas():
+    def menu_reservas():
     while True:
         print("mostrar_cartelera()")
         cod_peli=int(input("Seleccione el numero correspondiente a la pelicula que quieres ver. Escriba 0 para volver al menú principal: "))
@@ -83,14 +83,14 @@ def menu_reservas():
         
     
 
-def menu_principal():
-    while True:            
-        print("------------------------------------------------------------------------------------")
-        print("BIENVENIDO A CINE PLUS, LAS MEJORES RESERVAS PARA TU VISITA AL CINE EN UN SOLO LUGAR")
-        print("------------------------------------------------------------------------------------")
-        print("1. Reservar entrada")
-        print("2. Ver estadisticas y ventas actuales")
-        print("3. Salir")
+    def menu_principal():
+         while True:            
+             print("------------------------------------------------------------------------------------")
+             print("BIENVENIDO A CINE PLUS, LAS MEJORES RESERVAS PARA TU VISITA AL CINE EN UN SOLO LUGAR")
+             print("------------------------------------------------------------------------------------")
+             print("1. Reservar entrada")
+             print("2. Ver estadisticas y ventas actuales")
+             print("3. Salir")
         eleccion =input("seleccione una de las opciones: ").strip()
         if eleccion == "1":
             menu_reservas()
@@ -101,11 +101,11 @@ def menu_principal():
             break
         else:
             print("Opcion invalida")
-menu_principal()" 
+    menu_principal()" 
 
-este fue el primer codigo que sacamos, probamos cosas y fue cambiando durante el transcurso del trabajo, agregando, cambiando y sacando cosas.
+*este fue el primer codigo que sacamos, probamos cosas y fue cambiando durante el transcurso del trabajo, agregando, cambiando y sacando cosas.
 
-"def ver_estadisticas():
+    "def ver_estadisticas():
     entradas_totales_vendidas = 0
     ventas_por_pelicula = {}
 
@@ -138,9 +138,9 @@ este fue el primer codigo que sacamos, probamos cosas y fue cambiando durante el
     print(f"La más elegida por el público es: {ranking[0][1]['titulo']}" )
     print("-----------------------------------------------------")"
 
-este es el la parte de codigo que creamos en principio para el tema de las estadisticas.
+*este es el la parte de codigo que creamos en principio para el tema de las estadisticas.
 
-"while True:
+    while True:
         opcion_encuesta = input("Selecciona una opcion (1 o 2): ").strip()
         if opcion_encuesta == "1":
             break
@@ -150,4 +150,4 @@ este es el la parte de codigo que creamos en principio para el tema de las estad
         else:
             print("Opcion invalida. Ingresa 1 para responder o 2 para saltar.")"
 
-  esta parte fue la primera que utilizamos como un cuerpo de codigo para crear la parte de encuestas.
+ *esta parte fue la primera que utilizamos como un cuerpo de codigo para crear la parte de encuestas.
